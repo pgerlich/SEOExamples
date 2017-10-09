@@ -1,7 +1,7 @@
 begin:vcard
 fn:Tom BenGera
 n:BenGera;Tom;
-org:Desmarais LLP
+org:SomeCompany
 adr;work;encoding=quoted-printable:;;230 Park Avenue;New York;NY ;10169;United States of America 
 email;home;internet:test@test.com 
 email;work;pref;internet:tbengera@desmaraisllp.com 
