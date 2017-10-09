@@ -1,0 +1,413 @@
+pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+thead { display: table-header-group; } /* h5bp.com/t */
+tr, img { page-break-inside: avoid; }
+ 
+p, h2, h3 { orphans: 3; widows: 3; }
+@page { size:8.5in 11in;  }
+
+
+a[href]:after { display:none; } 
+	
+body {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	border:0;
+	
+	background:#ffffff;
+	font-size:12px;
+	position:relative;
+	overflow: visible;
+}
+
+*{
+	font-family:arial!important;
+	background:transparent!important;
+	color:#000;
+} 
+
+.row.success-row a {
+	color: #b32017!important;
+}
+
+p.practices-intro {
+	font-size: 16px
+}
+
+.go-full { width: auto!important}
+
+.right-rail, .video-wrapper .txt, .right-rail h2 {
+	font-size: 12px;
+}
+
+h2 {
+	font-size: 16px
+}
+.right-rail h2 {
+	color: #000;
+}
+
+.hidden-print {display: none!important}
+.print-only {	display: block!important}
+
+.container {
+	width: 100%!important
+}
+
+.block-column {
+	padding:0;
+}
+
+.block-column h2 {
+	margin-top: 0
+}
+
+address {
+	margin-bottom: 0
+}
+
+.bx-wrapper {
+	float: left!important;
+	width: 100%!important
+}
+
+
+.col-md-9 {
+	width: 70%
+}
+.col-md-3 {
+	width: 30%
+}
+
+
+.contact-block, div.print-footer, .right-rail {
+	border-top: 1px solid #E1E2E3;
+	width: 100%;
+	padding:30px 0;
+	height: auto
+}
+
+div.print-footer {
+	padding-bottom: 0;
+	page-break-after: auto;
+}
+
+
+
+.has-right-rail, .success-parent {
+	border-top: 1px solid #E1E2E3;
+	margin-top: 20px;
+	padding-top: 30px
+}
+
+.has-right-rail {
+	margin-top: 30px
+}
+
+.success-parent {
+	padding-top: 0
+}
+
+.bread-crumb, .tab-row, .js-show-moreless, .suggested-reading, .tools-col, ul.contact-icons, footer, .contact-block a.linked-in,
+.text-copy.exceeds-length .main-content-height:after, .interior-hero-bg, .filter-row, #gallery-thumbs-wrapper, .right-rail:after,
+.search-result-img {
+	display: none!important
+}
+
+
+
+.interior-hero .hero-text {
+	padding:0;
+}
+
+div.print-header {
+	padding:20px 0;
+	border-bottom: 1px solid #E1E2E3;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 36px
+}
+div.print-header img {
+	width: 50%
+}
+.bx-viewport, .interior-hero, .hero-text {
+	height: auto!important;
+	width: 100%!important;
+	padding:0;
+}
+.slide {
+	width: 100%!important;
+	position: static!important
+}
+
+.right-rail h2:first-child, .interior-hero .hero-text h1 {
+	margin-top: 0
+}
+
+.interior-hero .hero-text h1 {
+	margin-bottom: 15px
+}
+
+.text-copy {
+	padding-top: 0;
+	padding-bottom: 20px;
+	float: none;
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+}
+
+.text-copy:before, .text-copy:after {
+	display: table;
+  content: " ";
+}
+.text-copy:after {
+	clear:both;
+}
+.right-rail {
+	padding-left: 0;
+	padding-right:0;
+	float: none;
+	width: 100%
+}
+
+/* bio Detail */
+
+.professional_detail .right-rail, 
+.professional_detail .text-copy {
+	float: left;
+	border:0;
+}
+.professional_detail .text-copy {
+	padding-right: 54px;
+}
+.professional_detail .right-rail {
+	width: 30%;
+	padding-top: 0
+}
+.professional_detail .text-copy {
+	width: 70%
+}
+
+.lawyer-info {
+	padding-left: 0;
+	padding-top:0;
+	padding-bottom: 0
+}
+
+.lawyer-info-wrapper {
+	height: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.practices-links a {
+	display: 	block;
+	line-height:18px;
+}
+.practices-links br {
+	display: 	none;
+}
+
+.lawyer-info .name {
+	font-size: 32px;
+	margin-top: 0px
+}
+
+.lawyer-info .title {
+	font-size: 22px
+}
+.lawyer-info .contact-digits {
+	font-size: 12px;
+	margin-top: 25px
+}
+.lawyer-image-wrapper {
+	background:none;
+}
+.lawyer-image-wrapper img {
+
+}
+.lawyer-image-wrapper img, ul.col-attorney li a img {
+	visibility: visible;
+}
+.lawyer-image-wrapper {
+	height: auto;
+	width: 30%;
+	position: relative;
+	float: right
+}
+.print-bio-detail {
+	
+	position: absolute;
+	right: 0;
+	margin-right: -85px
+}
+
+.success-box {
+	padding-left: 0;
+	padding-right: 10px;
+	width: 50%;
+	float: left;
+}
+.success-box + .success-box {
+	padding-left: 10px;
+	padding-right: 0
+}
+
+.success-parent .row:first-child .success-content-wrapper {
+	padding-top:20px;
+}
+.success-parent .row:first-child .success-box:first-child .success-content-wrapper {
+	border-bottom: 0
+}
+
+.success-content-wrapper, .practice-list ul li {
+	padding-bottom: 20px
+}
+
+.row.success-row li div a {
+	font-size: 12px
+}
+
+.practice-list ul.faq{
+	margin-top: 0
+}
+
+.practice-list ul.faq li {
+	padding-top: 20px
+}
+
+.practice-list ul.faq li:first-child {
+	padding-top: 0
+}
+
+.row.success-row .title {
+	color: #999!important
+}
+.row.success-row a {
+	font-size: 16px
+}
+
+.row.success-row .fileLinks-wrapper a {
+	font-size: 12px
+}
+/* Lawyer landing */
+
+table {
+	width: 100%;
+}
+
+td {
+	padding:15px 10px;
+}
+
+table.table {
+	border-bottom:0;
+}
+
+.table>tbody>tr>td {
+	display: table-cell;
+	padding:15px 0;
+}
+
+.lawyer-landing-table {
+	opacity: 1;
+	position: static;
+	margin-top: 30px
+}
+
+.lawyer-landing-table tr.print-helper {
+	display: table-row!important;
+}
+
+.table td.name {
+	width: auto!important;
+	padding:15px 0;
+	font-size: 11pt;
+}
+
+.table .position {
+	width: 15%!important
+}
+
+.table .email {
+	width: 33%!important
+}
+
+.table .phone {
+	width: 15%!important;
+	padding-right:0;
+	text-align: right;
+}
+
+.col-xs-12, .col-md-6.practice-list {
+	padding-left: 0;
+	padding-right: 0
+}
+
+/* */
+
+.row.vid-row {
+	display: table
+}
+
+.video-wrapper .img {
+	page-break-inside: avoid;
+	height: auto;
+	width:300px;
+	height: 300px;
+	border:1px solid red;
+	
+	
+}
+.video-wrapper img {
+	visibility: visible;
+	position: absolute!important;
+	display: inline;
+	width: 300px;
+	height: 300px
+}
+
+.vid-module {
+	width: 50%;
+	float: left;
+}
+
+.video-wrapper .txt {
+	padding-left: 0;
+	padding-right: 0
+}
+
+.js-trigger-next + div {
+	display: block!important
+}
+
+
+.search-query {
+	padding-left: 0
+}
+
+ul.search-results li {
+	padding-left: 0;
+
+	font-size: 14px;
+}
+
+div.search-title {
+	margin-left: 0;
+	color:#000;
+	border-top: 1px solid #E1E2E3;
+	padding-left: 0
+}
+
+/* */
+
+.interior-hero .hero-text div {
+	font-size: 16px
+}
+
+.main-content-height {
+	height: auto!important
+}

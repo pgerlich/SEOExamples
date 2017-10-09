@@ -1,0 +1,15 @@
+begin:vcard
+fn:Tom BenGera
+n:BenGera;Tom;
+org:Desmarais LLP
+adr;work;encoding=quoted-printable:;;230 Park Avenue;New York;NY ;10169;United States of America 
+email;home;internet:test@test.com 
+email;work;pref;internet:tbengera@desmaraisllp.com 
+title:Associate
+tel;work:212-808-2942
+tel;work;fax:212-351-3401 
+url:http://www.desmaraisllp.com/tom-bengera
+url;work:http://www.desmaraisllp.com/
+
+version:2.1
+end:vcard

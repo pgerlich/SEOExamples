@@ -1,0 +1,343 @@
+h1 { font-size: 25px }
+h2 {font-size: 16px;margin-bottom: 20px}
+.text-copy h2 { margin-bottom: 10px}
+.mobile-hide {display:none!important;}
+.contact-block .location {font-size: 22px}
+.below-hero .hp-success .description, .hp-attorney-desc .description {font-size: 16px}
+
+.text-copy, .right-rail, .lawyer-info .contact-digits {
+	font-size: 16px
+}
+body {
+	font-size: 16px
+}
+
+#navbar ul {
+	font-size: 20px
+}
+[class*="col-"]{
+  width:100%;
+  float: left;
+}
+
+.nav-open .icon-bar.first {
+    margin: 0;
+    -webkit-transition: -webkit-transform 0.5s;
+    -moz-transition: -moz-transform 0.5s;
+    -ms-transition: -ms-transform 0.5s;
+    -o-transition: -o-transform 0.5s;
+    transition: transform 0.5s;
+    -webkit-transform: translateY(8px) rotate(45deg);
+    -moz-transform: translateY(8px) rotate(45deg);
+    -ms-transform: translateY(8px) rotate(45deg);
+    -o-transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
+}
+
+.nav-open .icon-bar.second {
+	display: none
+}
+
+.nav-open	.icon-bar.third {
+    -webkit-transition: -webkit-transform 0.5s;
+    -moz-transition: -moz-transform 0.5s;
+    -ms-transition: -ms-transform 0.5s;
+    -o-transition: -o-transform 0.5s;
+    transition: transform 0.5s;
+    -webkit-transform: translateY(0) rotate(-45deg);
+    -moz-transform: translateY(0) rotate(-45deg);
+    -ms-transform: translateY(0) rotate(-45deg);
+    -o-transform: translateY(0) rotate(-45deg);
+    transform: translateY(0) rotate(-45deg);
+}
+
+.filter-row span {
+	display: block;
+	margin-top: 15px
+}
+.filter-row {
+	min-height: 88px
+}
+.filter-row .js-place-holder {
+	margin-top:3px;
+}
+.go-full {
+	width: 100%;
+	height: auto
+}
+.btn-arrow {
+	font-size: 12px;
+	background-size: 6px 8px;
+	height: 34px;
+	line-height: 35px;
+  display: inline-block;
+  padding: 0 17px 0 10px;
+  border-right-width: 10px
+}
+.android .btn-arrow {
+	line-height: 37px;
+}
+.interior-hero, .interior-hero .hero-text, .sitepages .interior-hero, .sitepages .interior-hero .hero-text, .search-results .interior-hero {
+	height: auto;
+}
+.below-hero .hp-success, .hp-attorney-desc {
+	height: auto
+}
+.description + a {
+	position: relative;
+	top:7px;
+}
+.below-hero .hp-success a.btn-arrow, .hp-attorney-desc a.btn-arrow {
+	margin-right: 0;
+}
+
+.navbar-toggle {
+	border-radius: 0
+}
+.navbar-inverse .navbar-toggle {
+	border:0;
+	margin-right: 0;
+	padding:0;
+	margin-top: 16px;
+	position:absolute;
+	right:0
+}
+.navbar-toggle .icon-bar {
+	height: 4px;
+	width: 28px;
+	border-radius: 0
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background: none
+}
+.navbar-toggle .icon-bar+.icon-bar {
+	margin-top: 4px;
+}
+.navbar-collapse {
+	padding-left: 0;
+	padding:20px 0;
+}
+#navbar ul {
+	margin-top: 0;
+	margin-left: 0;
+	float: none!important;
+}
+#navbar ul li {
+	width: 100%;
+	display: block;
+	padding:5px 0 5px 0;
+}
+#navbar ul li:first-child {
+	padding-top: 0
+}
+#navbar ul li.navbar-search {
+	display: none
+}
+#navbar ul li a{
+	display: block;
+}
+#navbar ul li.on a, #navbar ul li:hover a {
+	padding-bottom: 0;
+	border:0;
+}
+a.main-logo{
+	display: table-cell;
+	vertical-align: middle;
+	height: 52px;
+	margin-top:0;
+}
+.main-logo img {
+	
+	height: auto;
+	display: block;
+	width: 225px
+	
+}
+.navbar, .navbar .container {
+	min-height: 52px
+}
+.navbar form {
+	z-index: 0
+}
+/* hopeage */
+
+.hero-content .note {font-size: 14px}
+.hero-content .description {font-size: 16px}
+.hero-content a.btn-arrow {margin:20px 0;}
+
+.below-hero .hp-success .title, .hp-attorney-desc .title {
+	font-size: 19px
+}
+
+.hero-slider h1 {
+	padding:0;
+}
+
+.bx-controls-direction {
+	bottom: initial;
+	left:initial;
+	top:0;
+	margin-top: -47px;
+	right:0;
+	margin-right: 0
+}
+.bx-controls-direction a.bx-prev, .bx-controls-direction a.bx-next {
+	background-size: 10px 15px;
+	width:23.5px;
+	height: 47px;
+}
+
+/* bio detail */
+
+.lawyer-image-wrapper {
+	float: none;
+	height: auto;
+	background-image: none!important
+}
+.lawyer-image-wrapper img {
+	visibility: visible;
+}
+.lawyer-info-wrapper {
+	height: auto
+}
+.lawyer-info .name {
+	margin-top: 0;
+	font-size: 24px
+}
+.lawyer-info .title {
+	font-size: 18px
+}
+
+.lawyer-info .contact-digits {
+	margin:20px 0;
+}
+
+ul.contact-icons {
+	position: static;
+	margin-top: 15px
+}
+ul.contact-icons li.email a {
+	background: url(../img/contact-icon-email-x2.png) no-repeat center top;
+	background-size: 31px;
+	font-size: 12px;
+	padding-top: 40px;
+	height: auto
+}
+.tab-row [class*="col-"] {
+	height: auto
+}
+ul.col-attorney li { 
+	width: 100%;
+}
+ul.col-attorney li {
+	width: 100%;
+	height:auto;
+}
+ul.col-attorney li img {
+	width: 100%;
+}
+.tools-col {
+	padding:0;
+	height: 80px;
+	text-align: center
+}
+.tools-col ul {
+	margin:0;
+}
+.tools-col ul li {
+		float: none;
+		width: 80px;
+		height: 80px;
+	display: inline-block;
+}
+
+.tools-col ul li a {
+	width: 80px;
+	height: 80px;
+	background-size: 50%!important
+}
+
+.video-wrapper .img {
+	height: auto
+}
+
+.tools-col ul li.email a {
+	background: url(../img/tool-icons-email-x2.png) no-repeat center center
+}
+
+.tools-col ul li.share a {
+    background: url(../img/tool-icons-share-x2.png) no-repeat center center;
+}
+
+.tools-col ul li a:hover {
+	background-color:#7f0d06!important;
+}
+
+.btn-arrow.js-show-moreless {
+	background-size: 12px!important
+}
+.suggested-reading {
+	height: auto
+}
+.suggested-reading, .tools-col {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+ul.firm-list li {
+	float: none;
+	width: 100%;
+}
+p.sub-title {
+	font-size: 18px
+}
+p.practices-intro {
+	font-size: 16px
+}
+/* footer */
+footer .container {
+	padding-top:18px;
+	padding-bottom: 65px
+}
+
+.footer-logo {
+	float: none
+}
+
+.footer-logo-2 {
+	bottom: 0;
+	margin-bottom: 7px;
+}
+footer .footer-links > li:first-child {
+	padding-left: 5px
+}
+
+/* share */
+
+#modalPopup {
+		max-height: 90%!important;
+		overflow-y:auto;
+		margin: 0 0 0 -140px !important;
+		top:20px;
+	}
+	
+	#modalPopup .close_modal {
+		right: 2px;
+		bottom: auto;
+		top: 3px;
+	}
+	
+	#modalPopup .inner {
+		width: auto;
+		height: auto !important;
+		left:0;
+		top:0;
+	}
+	
+	#modalPopup a.sendLink {
+		font-size: 15px;
+	}
+	
+	#modalPopup  ul.shareIcons li {
+		float: none !important;
+		width: auto !important;
+	}

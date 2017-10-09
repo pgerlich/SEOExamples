@@ -1,0 +1,161 @@
+	<script type="text/javascript" src="http://use.typekit.net/kxl4hou.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	
+	<style>
+		#modalPopup {
+			height:546px;
+		}
+		#modalPopup .inner {
+			height:515px;
+		}
+		#modalPopup .popup_head{
+			display:none;
+		}
+		#body {
+			font-size:15px;
+			font-family: 'Karla', sans-serif;
+			color:#474747;
+			line-height:1.3;
+			margin:0;
+		}
+		ul.shareIcons {
+			padding: 0;
+			margin: 20px 0 0 0;
+			padding-top: 20px;
+			border-top: 1px dashed #e6e6e6;
+		}
+		ul.shareIcons li {
+			height:50px;
+			line-height:50px;
+			float:left;
+			display:block;
+			width:50%;
+			padding:0;
+			margin:0 0 20px 0;
+			position:relative;
+			
+			-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+			-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+			box-sizing: border-box;         /* Opera/IE 8+ */				
+		}
+		ul.shareIcons li:nth-child(even) {
+			float:right;
+		}
+		ul.shareIcons li span {
+			display:block;
+			width:50px;
+			height:50px;
+			background:url(img/share_Icons.png) no-repeat;
+			position:absolute;
+			left:0;
+		}
+		ul.shareIcons li a:hover span {
+			width:56px;
+			height:56px;
+		}
+		ul.shareIcons li.linkedIn span {
+			background-position:-1px -3px;
+		}
+		ul.shareIcons li.linkedIn a:hover span {
+			background-position:-61px -3px;
+		}
+		ul.shareIcons li.twitter span {
+			background-position:-1px -73px; 
+		}
+		ul.shareIcons li.twitter a:hover span {
+			background-position:-61px -73px; 
+		}
+		ul.shareIcons li.stumbleupon span {
+			background-position:-1px -143px;
+		}
+		ul.shareIcons li.stumbleupon a:hover span {
+			background-position:-61px -143px;
+		}
+		ul.shareIcons li.digg span {
+			background-position:-1px -213px;
+		}
+		ul.shareIcons li.digg a:hover span {
+			background-position:-61px -213px;
+		}
+		ul.shareIcons li.facebook span {
+			background-position:-1px -283px;
+		}
+		ul.shareIcons li.facebook a:hover span {
+			background-position:-61px -283px;
+		}
+		ul.shareIcons li.google span {
+			background-position:-1px -353px;
+		}
+		ul.shareIcons li.google a:hover span {
+			background-position:-61px -353px;
+		}
+		ul.shareIcons li.technorati span {
+			background-position:-1px -423px;
+		}
+		ul.shareIcons li.technorati a:hover span {
+			background-position:-61px -423px;
+		}
+		ul.shareIcons li.del span {
+			background-position:-1px -493px;
+		}
+		ul.shareIcons li.del a:hover span {
+			background-position:-61px -493px;
+		}
+		ul.shareIcons li a{
+			font-family:'Karla', sans-serif;
+			font-size:20px;
+			color:#474747;
+			text-decoration:none;
+			display:inline-block;
+			padding-left:60px;
+		}
+		ul.shareIcons li a:hover{
+			text-decoration:underline;
+		}
+		a.sendLink {
+			display: inline-block;
+			height: 57px;
+			line-height: 58px;
+			background: url("img/share_mail_icon.png") no-repeat;
+			padding-left: 63px;
+			margin-top: 20px;
+			position:relative;
+			right:3px;
+			text-transform:capitalize;
+			font-family: arial;
+			font-size: 20px;
+			color: #474747;
+		}	
+		a.sendLink:hover {
+			background-position: 0 -134px
+		}   
+		@media (max-width: 400px) {
+			ul.shareIcons li { float:none !important}
+		}
+	
+	</style>
+	
+
+ 
+	<div id="body">
+		You may share a link to this page on any of the sites listed below.
+		<a href="mailto:?subject=Desmarais%20LLP%20%2D%20Website%20Link&body=http%3A%2F%2Fwww%2Edesmaraisllp%2Ecom%2Felizabeth%2Dweyl" class="sendLink" id="shareemaillink">Send link by email</a> 
+		<ul class="shareIcons clearfix">
+			<li class="linkedIn"><a href="http://www.linkedin.com/shareArticle?mini=true&title=&summary=&source=www.desmaraisllp.com&url=" class="share linkedinshare" target="_blank"><span></span>LinkedIn</a></li>
+			<li class="facebook"><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww%2Edesmaraisllp%2Ecom%2Felizabeth%2Dweyl" class="share" target="_blank"><span></span>Facebook</a></li>
+			<li class="twitter"><a href="https://twitter.com/share?url=http%3A%2F%2Fwww%2Edesmaraisllp%2Ecom%2Felizabeth%2Dweyl" class="share" target="_blank"><span></span>Twitter</a></li>
+			<li class="google"><a href="http://www.google.com/bookmarks/mark?op=edit&bkmk=http%3A%2F%2Fwww%2Edesmaraisllp%2Ecom%2Felizabeth%2Dweyl" class="share" target="_blank"><span></span>Google+</a></li>
+			<li class="stumbleupon"><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwww%2Edesmaraisllp%2Ecom%2Felizabeth%2Dweyl" class="share" target="_blank"><span></span>StumbleUpon</a></li>
+			
+			<li class="digg"><a href="http://digg.com/submit?phase=2&url=http%3A%2F%2Fwww%2Edesmaraisllp%2Ecom%2Felizabeth%2Dweyl" class="share" target="_blank"><span></span>Digg</a></li>
+			
+		
+		</ul>
+	</div>
+	<script>
+		var sharelinks = document.querySelectorAll('.linkedinshare');
+		
+		   var item = sharelinks[0];  
+		   item.href=item.href + encodeURIComponent(window.location.href);
+		
+	</script>
